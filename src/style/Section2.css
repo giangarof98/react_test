@@ -1,0 +1,18 @@
+img{
+    width: 100%;
+    height: 100vh;
+}
+
+.center2{
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    
+    gap: 40px;
+    letter-spacing: 2px;
+    height: 85vh;
+    left: 40%;
+}

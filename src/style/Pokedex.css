@@ -1,0 +1,9 @@
+
+.Pokemon{
+    display: inline-block;
+    border: 4px solid purple;
+    border-radius: 25px;
+    padding: 150px;
+}
+
+h1{color: blue;}
