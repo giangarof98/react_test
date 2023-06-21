@@ -27,7 +27,7 @@ export default function Main(){
             <Nav lists={{list1:'About', list2:'AskeMe', list3:'Contact'}}/>
             <Section />
             <Section2 msg={{msg1:'More to Discover', msg2:'More To Learn'}}/>
-            <Section3 text='Slot Game' color='purple' winner='green'/>
+            <Section3 text='Slot Game' color='purple' winner='green' btn='shuffle' />
             {/* <Section4 arr={['1','2','3']} color='blue'/> */}
             <PropertyList properties={properties}/>
 

@@ -37,4 +37,16 @@
     gap: 10px;
 }
 
+.roll{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.inner-roll{
+    display: flex;
+    flex-direction: column;
+}
+
 
