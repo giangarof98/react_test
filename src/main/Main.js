@@ -3,6 +3,7 @@ import Section from "../components/Section"
 import Section2 from "../components/Section2"
 import Section3 from "../components/Section3"
 import PropertyList from "../components/PropertyList"
+import Toggler from "../components/Toggler"
 
 // const data = [
 //     {id: 1, item:'eggs', qty: 4, completed: true},
@@ -30,6 +31,7 @@ export default function Main(){
             <Section3 text='Slot Game' color='purple' winner='green' btn='shuffle' />
             {/* <Section4 arr={['1','2','3']} color='blue'/> */}
             <PropertyList properties={properties}/>
+            <Toggler />
 
         </>
     )
