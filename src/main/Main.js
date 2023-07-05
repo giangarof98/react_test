@@ -4,7 +4,8 @@ import Section2 from "../components/Section2"
 import Section3 from "../components/Section3"
 import PropertyList from "../components/PropertyList"
 import Toggler from "../components/Toggler"
-import ColorB from "../components/ColorB"
+import ColorBox from "../components/ColorBox"
+import ColorGrid from "../components/ColorGrid"
 
 // const data = [
 //     {id: 1, item:'eggs', qty: 4, completed: true},
@@ -21,6 +22,18 @@ import ColorB from "../components/ColorB"
     { id: 129034, name: "Oceanview Condo", rating: 4.7, price: 140, available: false },
     { id: 129035, name: "Gold Miner Campground", rating: 4.69, price: 96, available: true },
   ];
+
+  const colors = [
+    '#006eff',
+    '#ff0000', 
+    '#32a84e',
+    '#7527e3',
+    '#e3e027',
+    '#5ca180',
+    '#ffa6e0',
+    '#3cdae8',
+    '#edaa1a'
+  ];
   
 
 export default function Main(){
@@ -33,7 +46,7 @@ export default function Main(){
             {/* <Section4 arr={['1','2','3']} color='blue'/> */}
             <PropertyList properties={properties}/>
             <Toggler />
-            <ColorB />
+            <ColorGrid colors={colors}/>
 
         </>
     )
