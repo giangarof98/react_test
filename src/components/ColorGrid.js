@@ -8,13 +8,13 @@ export default function ColorB({colors}){
     }
     return (
         <>  
-            <div className="body">
+            {/* <div className="body"> */}
                 <div className="ColorGrid">
                     <div className="box">
                         {box}   
                     </div>
                 </div>
-            </div>
+            {/* </div> */}
         </>
             
     )
